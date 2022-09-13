@@ -51,7 +51,7 @@ Password (again):
 Superuser created successfully. 
 ```
 
-#### Запустите приложение (localhost: http://127.0.0.1:8000/):
+#### Запустите приложение (ссылка: localhost:8000):
 ```sh
 docker-compose up
 ```
@@ -59,3 +59,8 @@ docker-compose up
 ```sh
 sudo docker-compose up
 ```
+#### Чтобы начать проверку вы должны создать item и зайти на него по ссылке. Например: http://localhost:8000/item/6/
+#### В нём будет кнопка add to order и кнопка buy. Нажав на buy вы переходите на внешний stripe сервис. 
+#### Нажам на add to order вы добавляете item в order(order для каждого ip пользователя разный) 
+#### Дальше, чтобы проверить order вы можете перейти на ссылку http://localhost:8000/order/  В нём будет список товаров и их общая цена
+
