@@ -9,7 +9,11 @@
 ```sh
 git clone https://github.com/HowBoringAndSmall/Rishat
 ```
-
+#### Создайте файл .env в Rishat/Rishat, где вы должны прописать:
+STRIPE_SECRET_KEY=
+STRIPE_PUBLIC_KEY=
+SECRET_KEY=
+последнее это ключ для django
 #### Перейдите в директорию проекта:
 ```sh
 cd ./Rishat
